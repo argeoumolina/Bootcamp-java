@@ -1,0 +1,46 @@
+
+
+
+
+.contenedor {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
+
+
+
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-left:25px;
+	padding-right:25px;
+	padding-bottom: 25px;
+    width: 350px;
+	
+	
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+	
+  }
+
+  .card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .card a:hover {
+    text-decoration: underline;
+  }
