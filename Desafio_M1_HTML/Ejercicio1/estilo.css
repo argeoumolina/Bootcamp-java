@@ -1,0 +1,40 @@
+body{background-color: #edf7ff;}
+
+.titulo1 {font-family: 'MuseoModerno', cursive;
+font-size: 117px;
+color:#0a2ff1;
+}
+
+.subtitulo1{
+    font-family: 'Asap', sans-serif;
+color: #0a2ff1;
+font-size: 52px;
+
+}
+
+.parrafo1{
+    font-family: 'Asap', sans-serif;
+font-size: 25pt;
+color:#04146c;
+}
+
+.subtitulo2
+{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 36pt;
+    color: #0a2ff1;
+}
+
+.preguntas {
+    font-family: 'Asap', sans-serif;
+    font-size: 25pt;
+    color: #04146c;
+    font-weight: bold;
+}
+
+.modo{
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+    color: #8a9af1;
+    font-size: 149pt;
+}
