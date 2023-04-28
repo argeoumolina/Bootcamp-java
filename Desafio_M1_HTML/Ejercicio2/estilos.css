@@ -1,0 +1,74 @@
+
+body {padding: 0px;
+margin: 0%;}
+.contendor{
+    width: auto;
+    height: auto;
+    
+    
+   
+}
+.sec1{
+    background-color: black;
+    text-align: center;
+    width: auto;
+    height: 200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec2 {
+    background-color: white;
+    text-align: center;
+    width: auto;
+    height: 200px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 148pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3 {
+    background-color: black;
+    text-align: center;
+    width: auto;
+    height: 200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 163pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec4 {
+    background-color: white;
+    text-align: center;
+    width: auto;
+    height: 200px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec5 {
+    background-color: black;
+    text-align: center;
+    width: auto;
+    height: 200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
