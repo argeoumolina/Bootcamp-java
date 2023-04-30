@@ -19,9 +19,14 @@ text-align:justify;
 }
 
 
+.container{display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;}
+
 
 .images
-{   background-image: url(fondo.JPG);
+{   background-image: url(/images/fondo.JPG);
     
     
     margin-top: 430px;}
