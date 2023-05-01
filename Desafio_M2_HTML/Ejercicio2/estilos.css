@@ -1,0 +1,34 @@
+.parteSuperior
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24pt;
+    color: #0a2ff1;
+    
+    margin-top: 100px;
+}
+
+.parteInferior
+{
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: -200px;
+}
+
+.parteInferior img 
+{
+    width:7%;
+    height:7%;
+    object-fit: contain;
+}
+
+.parteInferior img:last-of-type    
+{
+    margin-left: 70px;
+}
