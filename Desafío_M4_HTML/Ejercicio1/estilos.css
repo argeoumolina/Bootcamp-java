@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+
+body {
+	background-image: url(./images/M4-desafio1-fondo.png);
+	background-size: cover;
+	padding: 4px;
+	margin: 0;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	
+	padding: 25px;
+	
+    background-image: url(./images/M4-desafio1-fondo-form.png);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+h1 {
+	text-align: center;
+	padding: 0px;
+	color: #04146c;
+	font-family: 'Mulish', sans-serif;
+
+}
+
+form {
+	  width: 600px;
+    height: 400px;
+	  margin: 0 auto; 
+    background-color: white;
+    padding: 15px;
+    
+    
+    
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	margin-bottom: 20px;
+    box-sizing: border-box;
+	font-family: 'Mulish', sans-serif;
+	
+	color: #414166;
+	font-size: 17pt;
+}
+
+input[type="submit"] {
+	background-color: #15163d;
+	color: #ffffff;
+	font-weight: bold;
+    padding-right: 100px;
+	font-family: 'Mulish', sans-serif;
+	
+}
+
+input[type="submit"]:hover {
+	background-color: fondo #15163d;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 90%;
+	}
+	form {
+		width: 90%;
+	}
+}
