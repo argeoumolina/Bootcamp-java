@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+.some{font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;}
+
+
+.footer 
+{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    background-color:#0a2ff1;
+}
+
+.container 
+{
+    overflow: hidden;
+    
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 0px;
+  }
+  
+  .text-container 
+  {
+    float: left;
+    width: 40%;
+    
+  }
+  
+  .image-container 
+  {
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+  }
+  
+  .text-container h2:first-child,
+  .text-container p:first-child 
+  {
+    padding-left: 0;
+  }
+
+
+
+  .imagenprincipal {
+    width: 70%;
+    margin: 0px;
+    padding: -100px;
+}
+
+  .logoblanc {
+    width: 20%;
+    padding: 25px;
+
+}
+
+h2 
+{
+    font-family: 'Roboto Slab', serif;
+    color: #0a2ff1;
+    font-size: 25pt;
+}
+
+p 
+{
+    font-family: 'Roboto', sans-serif;
+    color: #04146c;
+    font-size: 14pt;
+}
+
+
+
+
+ /* NOTA: No logré que la imagen se pocisionara a la derecha como en la imagen de referencia.
+    Como podría lograrlo?
+ */
