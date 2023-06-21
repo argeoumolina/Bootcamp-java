@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Validación de Edad</title>
+</head>
+<body>
+    <h1>Validación de Edad</h1>
+    
+    <script>
+        function validarEdad() {
+            var edad = parseInt(prompt("Por favor, ingresa tu edad:"));
+
+            if (edad > 18) {
+                alert("¡Bienvenido!");
+            } else {
+                alert("Lo siento, debes ser mayor de 18 años para acceder.");
+            }
+        }
+
+        validarEdad();
+    </script>
+</body>
+</html>
